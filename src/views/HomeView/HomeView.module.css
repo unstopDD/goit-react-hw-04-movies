@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #31394910;
+  text-align: center;
+  list-style: none;
+}
+
+.item {
+  margin: 20px;
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  transition: 0.25s;
+}
+
+.item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px rgba(73, 203, 207, 0.548);
+}
+
+.movieTitle {
+  font-size: 22px;
+}
+
+.link {
+  text-decoration: none;
+  color: teal;
+}

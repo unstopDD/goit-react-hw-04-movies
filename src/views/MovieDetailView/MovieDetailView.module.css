@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.title {
+  font-size: 26px;
+}
+
+.rightPart {
+  max-width: 800px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: #2a363b;
+  font-size: 18px;
+}
+
+.activeLink {
+  composes: link;
+  color: #2196f3;
+}
+
+.list {
+  padding-left: 10px;
+  list-style: none;
+  padding-left: 0;
+}

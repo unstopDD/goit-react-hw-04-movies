@@ -9,7 +9,7 @@ import {
 
 import { fetchMovieDetails, IMAGE_URL } from '../../services/MoviesApi';
 import ErrorView from '../ErrorView';
-import LoadreView from '../LoadreView';
+import LoadreView from '../LoadrerView';
 
 import s from './MovieDetailView.module.css';
 

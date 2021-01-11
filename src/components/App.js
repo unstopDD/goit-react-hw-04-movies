@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import LoadreView from '../views/LoadreView';
+import LoadreView from '../views/LoadrerView';
 
 import Container from './Container';
 import Navigations from './Navigation';

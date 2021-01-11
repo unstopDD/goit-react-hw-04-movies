@@ -13,16 +13,14 @@ export default function Reviews({ movieID }) {
   return (
     <div className={s.wrapper}>
       {reviews.length > 0 ? (
-        <>
-          <ul className={s.list}>
-            {reviews.map((review, index) => (
-              <li key={index} className={s.item}>
-                <p> {review.author}</p>
-                <p> {review.content}</p>
-              </li>
-            ))}
-          </ul>
-        </>
+        <ul className={s.list}>
+          {reviews.map((review, index) => (
+            <li key={index} className={s.item}>
+              <p> {review.author}</p>
+              <p> {review.content}</p>
+            </li>
+          ))}
+        </ul>
       ) : (
         <p className={s.text}>No reviews to show</p>
       )}
